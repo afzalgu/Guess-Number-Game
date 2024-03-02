@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: rgb(252, 249, 249);
+    justify-content: centerss;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container-main{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    /* box-shadow: 1px 2px 2px 2px ; */
+    background-color: rgb(216, 204, 204);
+    
+}
+
+.conatiner-wrapper{
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.btn-again{
+    
+    background-color: brown;
+    /* display: flex; */
+    margin-right: 87%;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+
+
+}
+
+.btn-again:hover{
+    background-color: red;
+}
+
+.hidenum p{
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    background-color: rgb(211, 208, 208);
+}
+
+
+  .guess-num{
+    /* width: 100px; */
+    /* height: auto; */
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(223, 217, 217);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 8px;
+    height: 35px;
+    max-width: 200px;
+    margin-left: 90px;
+   
+  }
+
+  p{
+    font-weight: bold;
+  }
+.empty-container input{
+    height: 30px;
+    width: 50%;
+    margin-top: 20px;
+    
+}
+
+.btn-check{
+             
+    
+    background-color: brown;
+    /* display: flex; */
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+
+}
+
+.btn-check:hover{
+    background-color: red;
+}
